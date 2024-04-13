@@ -1,4 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
+import userimg from "../../assets/user.png";
 
 const Navbar = () => {
   const navlinks = (
@@ -7,7 +8,13 @@ const Navbar = () => {
         <NavLink to="/">Home</NavLink>
       </li>
       <li>
-        <NavLink to="/about">About</NavLink>
+        <NavLink to="/About">About</NavLink>
+      </li>
+      <li>
+        <NavLink to="/contact">Contact Us</NavLink>
+      </li>
+      <li>
+        <NavLink to="/update">Update profile</NavLink>
       </li>
     </>
   );
@@ -39,12 +46,17 @@ const Navbar = () => {
               {navlinks}
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">daisyUI</a>
+          <a className="btn btn-ghost text-2xl ">
+            City<span className="font-bold text-rose-500">Dwellers</span>
+          </a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{navlinks} </ul>
         </div>
-        <div className="navbar-end">
+        <div className="navbar-end ">
+          <div className="mr-4 tooltip tooltip-bottom" data-tip="no user">
+            <img className="w-10  " src={userimg} alt="" />
+          </div>
           <Link to="/login" className="btn">
             Login
           </Link>
