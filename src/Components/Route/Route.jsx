@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Error from "../Error/Error";
 import AppartmentFullDetail from "../Pages/AppartmentFullDetail";
+import Contact from "../Pages/Contuct/Contact";
 import About from "../Pages/Home/About/About";
 import Home from "../Pages/Home/Home";
 import Login from "../Pages/Login/Login";
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
         path: "/appartment/:id",
         element: <AppartmentFullDetail></AppartmentFullDetail>,
         loader: () => fetch("../../../datas.json"),
+      },
+      {
+        path: "/contact",
+        element: <Contact></Contact>,
       },
     ],
   },

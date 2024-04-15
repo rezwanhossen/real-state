@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "topic": "Apartment Hunting Tips",
+    "description": "Tips for finding the perfect apartment, including budgeting, location considerations, amenities, and lease terms.",
+    "photo": "https://i.ibb.co/h9Tz1v7/pexels-pixabay-271624.jpg",
+    "comment": 355,
+    "sher": 213,
+    "like": 810
+  },
+  {
+    "id": 2,
+    "topic": "Home Decor Ideas",
+    "description": "Inspiring ideas for decorating your apartment, including color schemes, furniture arrangement, and space-saving solutions.",
+    "photo": "https://i.ibb.co/9T2yHPz/pexels-sevenstorm-juhaszimrus-439391.jpg",
+    "comment": 345,
+    "sher": 63,
+    "like": 632
+  },
+  {
+    "id": 3,
+    "topic": "Creating an Inviting Living Space",
+    "description": "Strategies for creating a warm and welcoming atmosphere in your apartment, including lighting, accessories, and personal touches.",
+    "photo": "https://i.ibb.co/6WQv88N/pexels-yentl-jacobs-157811.jpg",
+    "comment": 645,
+    "sher": 43,
+    "like": 340
+  },
+  {
+    "id": 4,
+    "topic": "Maximizing Storage in a Small Apartment",
+    "description": "Creative tips and hacks for maximizing storage space in a small apartment, including multi-functional furniture and organizational solutions.",
+    "photo": "https://i.ibb.co/ctwM0tF/pexels-igor-starkov-1693946.jpg",
+    "comment": 445,
+    "sher": 53,
+    "like": 560
+  },
+  {
+    "id": 5,
+    "topic": "Budget-Friendly Apartment Upgrades",
+    "description": "Ideas for upgrading your apartment on a budget, including DIY projects, thrift store finds, and affordable decor options.",
+    "photo": "https://i.ibb.co/x8jCNfF/pexels-pixabay-271654.jpg",
+    "comment": 325,
+    "sher": 23,
+    "like": 452
+  },
+  {
+    "id": 6,
+    "topic": "Tips for Hosting Guests in Your Apartment",
+    "description": "Practical advice for hosting guests in your apartment, including guest room setup, entertaining tips, and hospitality etiquette.",
+    "photo": "https://i.ibb.co/80dTxCN/pexels-pixabay-276554.jpg",
+    "comment": 245,
+    "sher": 23,
+    "like": 500
+  }
+]

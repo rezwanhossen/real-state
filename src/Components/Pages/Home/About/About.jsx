@@ -1,3 +1,5 @@
+import Blog from "../../Blog/Blog";
+
 const About = () => {
   return (
     <div>
@@ -77,6 +79,7 @@ const About = () => {
           </ul>
         </div>
       </div>
+      <Blog></Blog>
     </div>
   );
 };

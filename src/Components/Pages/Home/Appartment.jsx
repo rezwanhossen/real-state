@@ -13,7 +13,7 @@ const Appartment = ({ data }) => {
     description,
   } = data;
   return (
-    <div className=" p-3 border shadow  rounded-md">
+    <div className=" card p-3 border shadow flex flex-col  rounded-md">
       <div>
         <img className="w-full h-[250px] rounded" src={img} alt="" />
       </div>
@@ -28,17 +28,20 @@ const Appartment = ({ data }) => {
         </p>
       </div>
       <h2 className=" text-2xl font-semibold my-2">{apartment_title}</h2>
-      {description.length > 100 ? (
-        <p>{description.slice(0, 100)}..... </p>
+      {description.length > 90 ? (
+        <p>{description.slice(0, 90)}..... </p>
       ) : (
         <p>{description} </p>
       )}
-      <Link
-        to={`/appartment/${id}`}
-        className=" btn btn-outline btn-secondary w-full my-3"
-      >
-        View Detail
-      </Link>
+
+      <div className="flex-grow flex-col">
+        <Link
+          to={`/appartment/${id}`}
+          className=" btn btn-outline btn-secondary w-full my-3"
+        >
+          View Detail
+        </Link>
+      </div>
     </div>
   );
 };
