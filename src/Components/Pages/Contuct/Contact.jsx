@@ -1,5 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import Footer from "../Footer/Footer";
 
 const Contact = () => {
   return (
@@ -91,6 +92,7 @@ const Contact = () => {
           </form>
         </div>
       </section>
+      <Footer></Footer>
     </div>
   );
 };

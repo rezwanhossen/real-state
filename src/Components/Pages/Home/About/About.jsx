@@ -1,5 +1,6 @@
 import { Helmet } from "react-helmet";
 import Blog from "../../Blog/Blog";
+import Footer from "../../Footer/Footer";
 
 const About = () => {
   return (
@@ -84,6 +85,7 @@ const About = () => {
         </div>
       </div>
       <Blog></Blog>
+      <Footer></Footer>
     </div>
   );
 };
