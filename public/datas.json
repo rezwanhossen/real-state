@@ -13,10 +13,10 @@
     "location": "Downtown",
     "facilities": ["Swimming Pool", "Gym", "Concierge Service", "Parking"],
 
-    "blog1-img": "https://i.ibb.co/R6d08Hg/pexels-binyamin-mellish-1396132.jpg",
-    "blog1-cont": "Apartment complexes are microcosms of society, where people from all walks of life come together under one roof. From young professionals and families to retirees and students, the diversity within apartment communities is truly remarkable. This melting pot of backgrounds, cultures, and perspectives creates a dynamic tapestry that fosters tolerance, understanding, and acceptance.",
-    "blog2-img": "https://i.ibb.co/fSnMKTJ/pexels-binyamin-mellish-186077.jpg",
-    "blog2-cont": "One of the most striking aspects of apartment living is the opportunity to cultivate meaningful relationships with neighbors who quickly become like family. Whether it's exchanging friendly greetings in the hallways, bonding over shared experiences in the communal spaces, or simply lending a helping hand when needed, there's a sense of camaraderie that permeates the air."
+    "blog1_img": "https://i.ibb.co/R6d08Hg/pexels-binyamin-mellish-1396132.jpg",
+    "blog1_cont": "Apartment complexes are microcosms of society, where people from all walks of life come together under one roof. From young professionals and families to retirees and students, the diversity within apartment communities is truly remarkable. This melting pot of backgrounds, cultures, and perspectives creates a dynamic tapestry that fosters tolerance, understanding, and acceptance.",
+    "blog2_img": "https://i.ibb.co/fSnMKTJ/pexels-binyamin-mellish-186077.jpg",
+    "blog2_cont": "One of the most striking aspects of apartment living is the opportunity to cultivate meaningful relationships with neighbors who quickly become like family. Whether it's exchanging friendly greetings in the hallways, bonding over shared experiences in the communal spaces, or simply lending a helping hand when needed, there's a sense of camaraderie that permeates the air."
   },
   {
     "id": 2,
@@ -31,11 +31,10 @@
     "area": "1800 sq ft",
     "location": "Waterfront",
     "facilities": ["Private Balcony", "Fitness Center", "24/7 Security"],
-
-    "blog1-img": "https://i.ibb.co/R6d08Hg/pexels-binyamin-mellish-1396132.jpg",
-    "blog1-cont": "Apartment complexes are microcosms of society, where people from all walks of life come together under one roof. From young professionals and families to retirees and students, the diversity within apartment communities is truly remarkable. This melting pot of backgrounds, cultures, and perspectives creates a dynamic tapestry that fosters tolerance, understanding, and acceptance.",
-    "blog2-img": "https://i.ibb.co/fSnMKTJ/pexels-binyamin-mellish-186077.jpg",
-    "blog2-cont": "One of the most striking aspects of apartment living is the opportunity to cultivate meaningful relationships with neighbors who quickly become like family. Whether it's exchanging friendly greetings in the hallways, bonding over shared experiences in the communal spaces, or simply lending a helping hand when needed, there's a sense of camaraderie that permeates the air."
+    "blog1_img": "https://i.ibb.co/R6d08Hg/pexels-binyamin-mellish-1396132.jpg",
+    "blog1_cont": "Apartment complexes are microcosms of society, where people from all walks of life come together under one roof. From young professionals and families to retirees and students, the diversity within apartment communities is truly remarkable. This melting pot of backgrounds, cultures, and perspectives creates a dynamic tapestry that fosters tolerance, understanding, and acceptance.",
+    "blog2_img": "https://i.ibb.co/fSnMKTJ/pexels-binyamin-mellish-186077.jpg",
+    "blog2_cont": "One of the most striking aspects of apartment living is the opportunity to cultivate meaningful relationships with neighbors who quickly become like family. Whether it's exchanging friendly greetings in the hallways, bonding over shared experiences in the communal spaces, or simply lending a helping hand when needed, there's a sense of camaraderie that permeates the air."
   },
   {
     "id": 3,
@@ -51,10 +50,10 @@
     "location": "Suburbia",
     "facilities": ["Community Garden", "Playground", "Pet-Friendly"],
 
-    "blog1-img": "https://i.ibb.co/R6d08Hg/pexels-binyamin-mellish-1396132.jpg",
-    "blog1-cont": "Apartment complexes are microcosms of society, where people from all walks of life come together under one roof. From young professionals and families to retirees and students, the diversity within apartment communities is truly remarkable. This melting pot of backgrounds, cultures, and perspectives creates a dynamic tapestry that fosters tolerance, understanding, and acceptance.",
-    "blog2-img": "https://i.ibb.co/fSnMKTJ/pexels-binyamin-mellish-186077.jpg",
-    "blog2-cont": "One of the most striking aspects of apartment living is the opportunity to cultivate meaningful relationships with neighbors who quickly become like family. Whether it's exchanging friendly greetings in the hallways, bonding over shared experiences in the communal spaces, or simply lending a helping hand when needed, there's a sense of camaraderie that permeates the air."
+    "blog1_img": "https://i.ibb.co/R6d08Hg/pexels-binyamin-mellish-1396132.jpg",
+    "blog1_cont": "Apartment complexes are microcosms of society, where people from all walks of life come together under one roof. From young professionals and families to retirees and students, the diversity within apartment communities is truly remarkable. This melting pot of backgrounds, cultures, and perspectives creates a dynamic tapestry that fosters tolerance, understanding, and acceptance.",
+    "blog2_img": "https://i.ibb.co/fSnMKTJ/pexels-binyamin-mellish-186077.jpg",
+    "blog2_cont": "One of the most striking aspects of apartment living is the opportunity to cultivate meaningful relationships with neighbors who quickly become like family. Whether it's exchanging friendly greetings in the hallways, bonding over shared experiences in the communal spaces, or simply lending a helping hand when needed, there's a sense of camaraderie that permeates the air."
   },
   {
     "id": 4,
@@ -70,10 +69,10 @@
     "location": "City Center",
     "facilities": ["Private Elevator", "Cinema Room", "Concierge"],
 
-    "blog1-img": "https://i.ibb.co/R6d08Hg/pexels-binyamin-mellish-1396132.jpg",
-    "blog1-cont": "Apartment complexes are microcosms of society, where people from all walks of life come together under one roof. From young professionals and families to retirees and students, the diversity within apartment communities is truly remarkable. This melting pot of backgrounds, cultures, and perspectives creates a dynamic tapestry that fosters tolerance, understanding, and acceptance.",
-    "blog2-img": "https://i.ibb.co/fSnMKTJ/pexels-binyamin-mellish-186077.jpg",
-    "blog2-cont": "One of the most striking aspects of apartment living is the opportunity to cultivate meaningful relationships with neighbors who quickly become like family. Whether it's exchanging friendly greetings in the hallways, bonding over shared experiences in the communal spaces, or simply lending a helping hand when needed, there's a sense of camaraderie that permeates the air."
+    "blog1_img": "https://i.ibb.co/R6d08Hg/pexels-binyamin-mellish-1396132.jpg",
+    "blog1_cont": "Apartment complexes are microcosms of society, where people from all walks of life come together under one roof. From young professionals and families to retirees and students, the diversity within apartment communities is truly remarkable. This melting pot of backgrounds, cultures, and perspectives creates a dynamic tapestry that fosters tolerance, understanding, and acceptance.",
+    "blog2_img": "https://i.ibb.co/fSnMKTJ/pexels-binyamin-mellish-186077.jpg",
+    "blog2_cont": "One of the most striking aspects of apartment living is the opportunity to cultivate meaningful relationships with neighbors who quickly become like family. Whether it's exchanging friendly greetings in the hallways, bonding over shared experiences in the communal spaces, or simply lending a helping hand when needed, there's a sense of camaraderie that permeates the air."
   },
   {
     "id": 5,
@@ -89,10 +88,10 @@
     "location": "Arts District",
     "facilities": ["Exposed Brick Walls", "Artist Studios", "Rooftop Lounge"],
 
-    "blog1-img": "https://i.ibb.co/R6d08Hg/pexels-binyamin-mellish-1396132.jpg",
-    "blog1-cont": "Apartment complexes are microcosms of society, where people from all walks of life come together under one roof. From young professionals and families to retirees and students, the diversity within apartment communities is truly remarkable. This melting pot of backgrounds, cultures, and perspectives creates a dynamic tapestry that fosters tolerance, understanding, and acceptance.",
-    "blog2-img": "https://i.ibb.co/fSnMKTJ/pexels-binyamin-mellish-186077.jpg",
-    "blog2-cont": "One of the most striking aspects of apartment living is the opportunity to cultivate meaningful relationships with neighbors who quickly become like family. Whether it's exchanging friendly greetings in the hallways, bonding over shared experiences in the communal spaces, or simply lending a helping hand when needed, there's a sense of camaraderie that permeates the air."
+    "blog1_img": "https://i.ibb.co/R6d08Hg/pexels-binyamin-mellish-1396132.jpg",
+    "blog1_cont": "Apartment complexes are microcosms of society, where people from all walks of life come together under one roof. From young professionals and families to retirees and students, the diversity within apartment communities is truly remarkable. This melting pot of backgrounds, cultures, and perspectives creates a dynamic tapestry that fosters tolerance, understanding, and acceptance.",
+    "blog2_img": "https://i.ibb.co/fSnMKTJ/pexels-binyamin-mellish-186077.jpg",
+    "blog2_cont": "One of the most striking aspects of apartment living is the opportunity to cultivate meaningful relationships with neighbors who quickly become like family. Whether it's exchanging friendly greetings in the hallways, bonding over shared experiences in the communal spaces, or simply lending a helping hand when needed, there's a sense of camaraderie that permeates the air."
   },
   {
     "id": 6,
@@ -108,9 +107,9 @@
     "location": "Coastal",
     "facilities": ["Private Beach", "Infinity Pool", "Tennis Courts"],
 
-    "blog1-img": "https://i.ibb.co/R6d08Hg/pexels-binyamin-mellish-1396132.jpg",
-    "blog1-cont": "Apartment complexes are microcosms of society, where people from all walks of life come together under one roof. From young professionals and families to retirees and students, the diversity within apartment communities is truly remarkable. This melting pot of backgrounds, cultures, and perspectives creates a dynamic tapestry that fosters tolerance, understanding, and acceptance.",
-    "blog2-img": "https://i.ibb.co/fSnMKTJ/pexels-binyamin-mellish-186077.jpg",
-    "blog2-cont": "One of the most striking aspects of apartment living is the opportunity to cultivate meaningful relationships with neighbors who quickly become like family. Whether it's exchanging friendly greetings in the hallways, bonding over shared experiences in the communal spaces, or simply lending a helping hand when needed, there's a sense of camaraderie that permeates the air."
+    "blog1_img": "https://i.ibb.co/R6d08Hg/pexels-binyamin-mellish-1396132.jpg",
+    "blog1_cont": "Apartment complexes are microcosms of society, where people from all walks of life come together under one roof. From young professionals and families to retirees and students, the diversity within apartment communities is truly remarkable. This melting pot of backgrounds, cultures, and perspectives creates a dynamic tapestry that fosters tolerance, understanding, and acceptance.",
+    "blog2_img": "https://i.ibb.co/fSnMKTJ/pexels-binyamin-mellish-186077.jpg",
+    "blog2_cont": "One of the most striking aspects of apartment living is the opportunity to cultivate meaningful relationships with neighbors who quickly become like family. Whether it's exchanging friendly greetings in the hallways, bonding over shared experiences in the communal spaces, or simply lending a helping hand when needed, there's a sense of camaraderie that permeates the air."
   }
 ]

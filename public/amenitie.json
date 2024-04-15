@@ -1,0 +1,32 @@
+[
+  {
+    "img": "https://i.ibb.co/Pj9Zvgd/pexels-brett-sayles-1119152.jpg",
+    "rating": 4.4,
+    "name": "Security",
+    "des": "Each of our residential projects is provided with the highest level of security facilities. It includes access control for apartments, security guards, systematic camera monitoring etc."
+  },
+  {
+    "img": "https://i.ibb.co/qYBgg0M/pexels-mali-maeder-1415810.jpg",
+    "rating": 4.9,
+    "name": "Swimming",
+    "des": "Our residential projects are serviced so that the owners are free from swimming."
+  },
+  {
+    "img": "https://i.ibb.co/LgHTWzZ/pexels-alexander-tencio-1626851.jpg",
+    "name": "Parking",
+    "rating": 4.7,
+    "des": " Convenient parking facilities are available in our residential projects to park all vehicles."
+  },
+  {
+    "img": "https://i.ibb.co/x7BjLZk/pexels-william-choquette-1954524.jpg",
+    "name": "GYM",
+    "rating": 4.6,
+    "des": " Our residential projects offer full facilities with recommended gym facilities for every owner."
+  },
+  {
+    "img": "https://i.ibb.co/PCv7VNK/pexels-matheus-bertelli-2608517.jpg",
+    "name": "Community Spaces",
+    "des": " Various community spaces are available in our residential projects, such as natural parks, sunset decks, barbecue areas.",
+    "rating": 4.8
+  }
+]

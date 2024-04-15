@@ -5,16 +5,44 @@ const Navbar = () => {
   const navlinks = (
     <>
       <li>
-        <NavLink to="/">Home</NavLink>
+        <NavLink
+          to="/"
+          className={({ isActive }) =>
+            isActive ? " btn btn-outline btn-success " : " "
+          }
+        >
+          Home
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/About">About</NavLink>
+        <NavLink
+          to="/About"
+          className={({ isActive }) =>
+            isActive ? " btn btn-outline btn-success " : " "
+          }
+        >
+          About
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/contact">Contact Us</NavLink>
+        <NavLink
+          to="/contact"
+          className={({ isActive }) =>
+            isActive ? " btn btn-outline btn-success " : " "
+          }
+        >
+          Contact Us
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/update">Update profile</NavLink>
+        <NavLink
+          to="/update"
+          className={({ isActive }) =>
+            isActive ? " btn btn-outline btn-success " : " "
+          }
+        >
+          Update profile
+        </NavLink>
       </li>
     </>
   );
@@ -41,7 +69,7 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-sm  dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
               {navlinks}
             </ul>
@@ -54,7 +82,7 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1">{navlinks} </ul>
         </div>
         <div className="navbar-end ">
-          <div className="mr-4 tooltip tooltip-bottom" data-tip="no user">
+          <div className="mr-4">
             <img className="w-10  " src={userimg} alt="" />
           </div>
           <Link to="/login" className="btn">
