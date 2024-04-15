@@ -1,8 +1,12 @@
+import { Helmet } from "react-helmet";
 import Blog from "../../Blog/Blog";
 
 const About = () => {
   return (
     <div>
+      <Helmet>
+        <title>CityDwellers | About</title>
+      </Helmet>
       <div className="hero min-h-screen rounded bg-base-300">
         <div className="hero-content ">
           <div className="md:flex justify-between p-4 gap-5">

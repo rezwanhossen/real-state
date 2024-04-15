@@ -1,8 +1,12 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 
 const Contact = () => {
   return (
     <div>
+      <Helmet>
+        <title>CityDwellers | Contact</title>
+      </Helmet>
       <section className="py-6 bg-gray-400 text-gray-900">
         <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
           <div className="py-6 md:py-0 md:px-6">

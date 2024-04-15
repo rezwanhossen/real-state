@@ -1,6 +1,7 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import { GoStarFill } from "react-icons/go";
 import { BiDollar } from "react-icons/bi";
+import { Helmet } from "react-helmet";
 const AppartmentFullDetail = () => {
   const datas = useLoaderData();
   const { id } = useParams();
@@ -27,6 +28,9 @@ const AppartmentFullDetail = () => {
   } = data;
   return (
     <div>
+      <Helmet>
+        <title>CityDwellers | Apartment Details {id}</title>
+      </Helmet>
       <div className=" space-y-2">
         <img className=" h-[80vh] w-full" src={img} alt="" />
         <div className=" flex justify-between text-xl font-semibold border rounded p-2 my-2">

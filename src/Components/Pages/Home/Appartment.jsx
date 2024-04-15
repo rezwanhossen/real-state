@@ -34,7 +34,7 @@ const Appartment = ({ data }) => {
         <p>{description} </p>
       )}
 
-      <div className="flex-grow flex-col">
+      <div className="flex-grow ">
         <Link
           to={`/appartment/${id}`}
           className=" btn btn-outline btn-secondary w-full my-3"
