@@ -1,6 +1,7 @@
 import { Link, NavLink } from "react-router-dom";
-import userimg from "../../assets/user.png";
+// import userimg from "../../assets/user.png";
 import useAuth from "../Hooks/useAuth";
+// import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const { user, logout } = useAuth();
@@ -36,16 +37,18 @@ const Navbar = () => {
           Contact Us
         </NavLink>
       </li>
-      <li>
-        <NavLink
-          to="/update"
-          className={({ isActive }) =>
-            isActive ? " btn btn-outline btn-success " : " "
-          }
-        >
-          Update profile
-        </NavLink>
-      </li>
+      {user && (
+        <li>
+          <NavLink
+            to="/update"
+            className={({ isActive }) =>
+              isActive ? " btn btn-outline btn-success " : " "
+            }
+          >
+            Update profile
+          </NavLink>
+        </li>
+      )}
     </>
   );
   return (
@@ -71,7 +74,7 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm  dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-sm  dropdown-content mt-3 z-20 p-2 shadow bg-base-100 rounded-box w-52"
             >
               {navlinks}
             </ul>
@@ -85,30 +88,30 @@ const Navbar = () => {
         </div>
         <div className="navbar-end ">
           {user ? (
-            <div className="dropdown dropdown-hover">
-              <div tabIndex={0} role="button">
-                <img className="w-10  " src={userimg} alt="" />
+            <div className=" flex items-center gap-2">
+              <div className="dropdown dropdown-hover">
+                <div tabIndex={0} role="button">
+                  <img
+                    className="w-10  rounded-full "
+                    src={user?.photoURL || "https://i.ibb.co/ZLvzRqG/user.png"}
+                  />
+                </div>
+                <ul
+                  tabIndex={0}
+                  className="dropdown-content z-20 menu  p-2 shadow bg-base-100 rounded-box "
+                >
+                  <li>
+                    <p>{user?.displayName || "user not defind"} </p>
+                  </li>
+                  <li>
+                    <Link to="/profil">Profile</Link>
+                  </li>
+                </ul>
               </div>
-              <ul
-                tabIndex={0}
-                className="dropdown-content  z-[1] menu  p-2 shadow bg-base-100 rounded-box "
-              >
-                <li>
-                  <a>Item 1</a>
-                </li>
-                <li>
-                  <a>Item 2</a>
-                </li>
-                <li>
-                  <button
-                    onClick={logout}
-                    className=" btn btn-outline btn-success"
-                  >
-                    {" "}
-                    Logout
-                  </button>
-                </li>
-              </ul>
+              <button onClick={logout} className=" btn btn-outline btn-success">
+                {" "}
+                Logout
+              </button>
             </div>
           ) : (
             // <div className="mr-4">

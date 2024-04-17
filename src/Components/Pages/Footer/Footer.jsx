@@ -1,6 +1,10 @@
 import { Link } from "react-router-dom";
 import companylogo from "../../../../src/assets/companylogo-removebg-preview.png";
 import GoogleMapReact from "google-map-react";
+import { IoLogoFacebook } from "react-icons/io";
+import { FaInstagram } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { googleapikey } from "./googleapikey";
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
 const Footer = () => {
@@ -40,25 +44,26 @@ const Footer = () => {
           </Link>
         </nav>
         <nav>
-          <h6 className="footer-title">Services</h6>
-          <a className="link link-hover">Branding</a>
-          <a className="link link-hover">Design</a>
-          <a className="link link-hover">Marketing</a>
-          <a className="link link-hover">Advertisement</a>
+          <h6 className="footer-title">Visit </h6>
+          <a className=" btn w-12 h-12 btn-outline ">
+            <IoLogoFacebook></IoLogoFacebook>
+          </a>
+          <a className=" btn w-12 h-12 btn-outline ">
+            <FaInstagram></FaInstagram>
+          </a>
+          <a className=" btn w-12 h-12 btn-outline ">
+            <FaTwitter></FaTwitter>
+          </a>
         </nav>
 
         <nav>
           <div style={{ height: "200px", width: "300px" }}>
             <GoogleMapReact
-              bootstrapURLKeys={{ key: "" }}
+              bootstrapURLKeys={{ key: googleapikey }}
               defaultCenter={defaultProps.center}
               defaultZoom={defaultProps.zoom}
             >
-              <AnyReactComponent
-                lat={59.955413}
-                lng={30.337844}
-                text="My Marker"
-              />
+              <AnyReactComponent lat={22.82} lng={89.550003} text="My Marker" />
             </GoogleMapReact>
           </div>
         </nav>

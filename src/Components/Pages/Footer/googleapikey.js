@@ -1,1 +1,1 @@
-export const googleapikey=""
+export const googleapikey = "";

@@ -15,8 +15,14 @@ const Blog = () => {
   return (
     <div className=" mt-10 space-y-3">
       <div className=" text-center my-9 ">
-        <h1 className="text-3xl lg:text-5xl font-bold mb-3">Blogs</h1>
-        <p>
+        <h1
+          className="text-3xl lg:text-5xl font-bold mb-3"
+          data-aos="zoom-out-left"
+          data-aos-delay="200"
+        >
+          Blogs
+        </h1>
+        <p data-aos="zoom-out-rigit" data-aos-delay="200">
           Certainly! Here's a curated list of articles and blog posts covering
           residential living, apartment hunting tips, <br /> home decor ideas,
           and real estate market updates.

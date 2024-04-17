@@ -4,8 +4,10 @@ const NaverhoodGide = () => {
   return (
     <div className="mt-14">
       <div className=" text-center space-y-3">
-        <h1 className="text-3xl md:text-5xl font-bold">Neighborhood Guide</h1>
-        <p>
+        <h1 data-aos="flip-left" className="text-3xl md:text-5xl font-bold">
+          Neighborhood Guide
+        </h1>
+        <p data-aos="zoom-in">
           here are many interesting places around the location on the edge of{" "}
           our residential project. There are public schools, <br /> circular
           parks and various restaurants and shopping centers with specialty
@@ -44,17 +46,17 @@ const NaverhoodGide = () => {
           </div>
         </div>
         <div className="px-5 space-y-4">
-          <li>
+          <li data-aos="zoom-in-right" data-aos-delay="100">
             <b> Schools :</b>The schools are popular educational institutions in
             the suburbs that provide students with the best learning
             institutions. All of them are run by excellent teachers and offer
             various educational facilities.
           </li>
-          <li>
+          <li data-aos="zoom-in-right" data-aos-delay="200">
             <b>Parks : </b> The parks offer beautiful natural expanses of land,
             play areas, walking paths, and a hearty peaceful atmosphere.
           </li>
-          <li>
+          <li data-aos="zoom-in-right" data-aos-delay="300">
             <b>Restaurants/shopping centers : </b> Restaurants and shopping
             centers offer opportunities to enjoy a variety of dining and retail
             options on the edge, and they are generally located in expansive and

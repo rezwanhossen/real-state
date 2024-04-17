@@ -13,10 +13,14 @@ const About = () => {
           <div className="md:flex justify-between p-4 gap-5">
             <div className=" flex-1">
               <div className=" mt-6 space-y-3">
-                <h2 className="text-3xl lg:text-7xl font-bold p-3 ">
+                <h2
+                  data-aos="zoom-out-left"
+                  data-aos-delay="200"
+                  className="text-3xl lg:text-7xl font-bold p-3 "
+                >
                   About Us
                 </h2>
-                <p>
+                <p data-aos="zoom-out-right" data-aos-delay="200">
                   The main objective of our company CityDwellers is to provide
                   real or virtual materials to identify ideal living space for
                   people. We are introducing a team that is well known and
@@ -85,7 +89,6 @@ const About = () => {
         </div>
       </div>
       <Blog></Blog>
-      <Footer></Footer>
     </div>
   );
 };

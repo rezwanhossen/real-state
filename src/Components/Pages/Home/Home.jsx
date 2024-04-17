@@ -4,8 +4,9 @@ import Banner from "../Banner/Banner";
 import Blog from "../Blog/Blog";
 import Footer from "../Footer/Footer";
 import NaverhoodGide from "../NaverhoodGide/NaverhoodGide";
-import About from "./About/About";
+// import About from "./About/About";
 import ApartmentData from "./ApartmentData";
+
 // import Banner from "./Banner";
 
 const Home = () => {
@@ -19,7 +20,6 @@ const Home = () => {
       <Amenities></Amenities>
       <NaverhoodGide></NaverhoodGide>
       <Blog></Blog>
-      <Footer></Footer>
     </div>
   );
 };

@@ -13,7 +13,12 @@ const Appartment = ({ data }) => {
     description,
   } = data;
   return (
-    <div className=" card p-3 border shadow flex flex-col  rounded-md">
+    <div
+      data-aos="zoom-in-down"
+      data-aos-duration="1000"
+      data-aos-delay="700"
+      className=" card p-3 border shadow flex flex-col  rounded-md"
+    >
       <div>
         <img className="w-full h-[250px] rounded" src={img} alt="" />
       </div>

@@ -22,8 +22,14 @@ const Amenities = () => {
   return (
     <div>
       <div className=" text-center space-y-2 mt-5">
-        <h2 className="text-5xl text-stone-700 font-bold">Amenities</h2>
-        <p>
+        <h2
+          data-aos="fade-right"
+          data-aos-delay="300"
+          className="text-5xl text-stone-700 font-bold"
+        >
+          Amenities
+        </h2>
+        <p data-aos="fade-left" data-aos-delay="400">
           Our residential system offers many amenities that help make your life
           easier and more fulfilling. <br /> Following are our key benefits and
           their detailed description.
