@@ -59,7 +59,9 @@ const Footer = () => {
         <nav>
           <div style={{ height: "200px", width: "300px" }}>
             <GoogleMapReact
-              bootstrapURLKeys={{ key: googleapikey }}
+              bootstrapURLKeys={{
+                key: googleapikey,
+              }}
               defaultCenter={defaultProps.center}
               defaultZoom={defaultProps.zoom}
             >
