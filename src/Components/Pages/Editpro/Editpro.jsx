@@ -1,7 +1,11 @@
+import { useState } from "react";
+import { Helmet } from "react-helmet";
 import { useForm } from "react-hook-form";
 import useAuth from "../../Hooks/useAuth";
 const Editpro = () => {
   const { updateuserprofil } = useAuth();
+  const [error, seterror] = useState("");
+  const [succ, setsucc] = useState("");
   const {
     register,
     handleSubmit,
@@ -10,12 +14,19 @@ const Editpro = () => {
   } = useForm();
   const onSubmit = (data) => {
     const { fullname, img } = data;
-    updateuserprofil(fullname, img).then((resukt) => {
-      console.log(resukt);
+    seterror("");
+    setsucc("");
+    updateuserprofil(fullname, img).then((result) => {
+      setsucc("Save Succesfully !").catch((error) => {
+        seterror(error.message);
+      });
     });
   };
   return (
     <div>
+      <Helmet>
+        <title> update proile</title>
+      </Helmet>
       <div className=" w-full md:w-2/5 mx-auto border rounded p-4">
         <h2 className=" text-3xl font-bold text-center mb-3">
           Update Profile{" "}
@@ -47,6 +58,8 @@ const Editpro = () => {
             value="Save"
           />
         </form>
+        {succ && <p className=" text-green-600">{succ} </p>}
+        {error && <p className=" text-red-600">{error} </p>}
       </div>
     </div>
   );
