@@ -3,6 +3,7 @@ import Error from "../Error/Error";
 import Profile from "../Navbar/Profile/Profile";
 import AppartmentFullDetail from "../Pages/AppartmentFullDetail";
 import Contact from "../Pages/Contuct/Contact";
+import Editpro from "../Pages/Editpro/Editpro";
 import About from "../Pages/Home/About/About";
 import Home from "../Pages/Home/Home";
 import Login from "../Pages/Login/Login";
@@ -41,6 +42,7 @@ const router = createBrowserRouter([
         ),
         loader: () => fetch("../../../datas.json"),
       },
+
       {
         path: "/contact",
         element: <Contact></Contact>,
@@ -48,6 +50,10 @@ const router = createBrowserRouter([
       {
         path: "/profil",
         element: <Profile></Profile>,
+      },
+      {
+        path: "/editpro",
+        element: <Editpro></Editpro>,
       },
     ],
   },

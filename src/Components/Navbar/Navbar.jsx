@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+import { Link, Navigate, NavLink } from "react-router-dom";
 // import userimg from "../../assets/user.png";
 import useAuth from "../Hooks/useAuth";
 // import { Link } from "react-router-dom";
@@ -37,10 +37,10 @@ const Navbar = () => {
           Contact Us
         </NavLink>
       </li>
-      {user && (
+      {user ? (
         <li>
           <NavLink
-            to="/update"
+            to="/editpro"
             className={({ isActive }) =>
               isActive ? " btn btn-outline btn-success " : " "
             }
@@ -48,6 +48,8 @@ const Navbar = () => {
             Update profile
           </NavLink>
         </li>
+      ) : (
+        <Navigate to="/"></Navigate>
       )}
     </>
   );
@@ -92,7 +94,7 @@ const Navbar = () => {
               <div className="dropdown dropdown-hover">
                 <div tabIndex={0} role="button">
                   <img
-                    className="w-10  rounded-full "
+                    className="w-10 h-10  rounded-full "
                     src={user?.photoURL || "https://i.ibb.co/ZLvzRqG/user.png"}
                   />
                 </div>
@@ -104,12 +106,15 @@ const Navbar = () => {
                     <p>{user?.displayName || "user not defind"} </p>
                   </li>
                   <li>
-                    <Link to="/profil">Profile</Link>
+                    {user ? (
+                      <Link to="/profil">Profile</Link>
+                    ) : (
+                      <Navigate to="/"></Navigate>
+                    )}
                   </li>
                 </ul>
               </div>
               <button onClick={logout} className=" btn btn-outline btn-success">
-                {" "}
                 Logout
               </button>
             </div>

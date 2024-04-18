@@ -7,6 +7,7 @@ import {
   signInWithEmailAndPassword,
   signInWithPopup,
   signOut,
+  updateProfile,
 } from "firebase/auth";
 import { useState } from "react";
 import { useEffect } from "react";
@@ -21,11 +22,19 @@ const facbookpro = new FacebookAuthProvider();
 const AuthProvider = ({ children }) => {
   const [user, setuser] = useState(null);
   const [lodding, setloding] = useState(true);
-  console.log(user);
+  // console.log(user);
   //creat users
   const creatUser = (email, password) => {
     setloding(true);
     return createUserWithEmailAndPassword(auth, email, password);
+  };
+
+  // updats profile
+  const updateuserprofil = (name, img) => {
+    return updateProfile(auth.currentUser, {
+      displayName: name,
+      photoURL: img,
+    });
   };
 
   // Login user
@@ -78,6 +87,7 @@ const AuthProvider = ({ children }) => {
     logout,
     facbookLogin,
     lodding,
+    updateuserprofil,
   };
   return <AuthContx.Provider value={AllValue}>{children}</AuthContx.Provider>;
 };

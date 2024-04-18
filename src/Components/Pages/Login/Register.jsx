@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useForm } from "react-hook-form";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 // import { toast } from "react-toastify";
 import { FiEye, FiEyeOff } from "react-icons/fi";
 
@@ -10,7 +10,11 @@ const Register = () => {
   const [succes, setsucces] = useState("");
   const [passvalid, setpassvalid] = useState("");
   const [showpass, setshowpass] = useState(false);
-  const { creatUser } = useAuth();
+  const { creatUser, updateuserprofil } = useAuth();
+
+  const naviget = useNavigate();
+
+  const from = "/";
   const {
     register,
     handleSubmit,
@@ -19,7 +23,7 @@ const Register = () => {
   } = useForm();
 
   const onSubmit = (data) => {
-    const { email, password } = data;
+    const { email, password, fullname, img } = data;
     setregerror("");
     setsucces("");
     setpassvalid("");
@@ -40,7 +44,10 @@ const Register = () => {
 
     creatUser(email, password)
       .then((result) => {
-        setsucces("user cerat Succesfully !");
+        updateuserprofil(fullname, img).then(() => {
+          naviget(from);
+          setsucces("user cerat Succesfully !");
+        });
       })
       .catch((error) => {
         setregerror(error.message);
@@ -55,7 +62,7 @@ const Register = () => {
           <input
             className="w-full border rounded px-2 py-3 mb-3"
             type="text"
-            placeholder=" Full name"
+            placeholder="Full name"
             name=""
             id=""
             {...register("fullname")}

@@ -54,7 +54,7 @@ const Login = () => {
           <div className=" relative mb-3">
             <input
               className="w-full border rounded mb-3 px-2 py-3"
-              type="password"
+              type={showpass ? "text" : "password"}
               placeholder="password"
               name=""
               id=""
